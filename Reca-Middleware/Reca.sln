@@ -1,0 +1,260 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Reca", "Reca\Reca.ccproj", "{6FC70952-B7ED-43AD-BF0F-05FB37A0E5B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composite", "Composite", "{E945422B-9816-47F2-B97E-1E671C7CE455}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TechnicalService", "TechnicalService", "{A65E545F-F6CE-4BAF-B4AA-E49C19749187}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composite.Test", "Composite.Test", "{FF47C204-6828-4D89-8CE9-779795B6A6A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TechnicalService.Test", "TechnicalService.Test", "{8D910B63-DDCF-415B-8635-42DA00E98A7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reca.TechnicalService.Customers", "Reca.TechnicalService.Customers\Reca.TechnicalService.Customers.csproj", "{B87C5698-1CB2-40A4-BF2E-BBF075A3C95D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reca.TechnicalService.Customers.Test", "Reca.TechnicalService.Customers.Test\Reca.TechnicalService.Customers.Test.csproj", "{794A92DF-B0A6-4E2B-9E2D-8C8214638530}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reca.Customers", "Reca.Customers\Reca.Customers.csproj", "{E64619D6-3E5B-4626-89D9-C4E8233B194A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AACFE724-433C-4DE4-A615-2986E0A1DFDB} = {AACFE724-433C-4DE4-A615-2986E0A1DFDB}
+		{FAECF8CD-D5ED-49EB-A637-BAA6C17D8286} = {FAECF8CD-D5ED-49EB-A637-BAA6C17D8286}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reca.TechnicalService.Basics", "Reca.TechnicalService.Basics\Reca.TechnicalService.Basics.csproj", "{AACFE724-433C-4DE4-A615-2986E0A1DFDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reca.Composite.Customers", "Reca.Composite.Customers\Reca.Composite.Customers.csproj", "{FAECF8CD-D5ED-49EB-A637-BAA6C17D8286}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTO", "DTO", "{F6C0A63E-83D7-4AC4-8082-6BEE9A971340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reca.DataTransferObjects.Basics", "Reca.DataTransferObjects.Basics\Reca.DataTransferObjects.Basics.csproj", "{B7959795-6E8B-40B1-9BB6-9AA588981DA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reca.Customers.Test", "Reca.Customers.Test\Reca.Customers.Test.csproj", "{797CBFA4-76C9-406F-A336-44F54868E095}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Soap", "Soap", "{8EFC469C-00D4-498E-91A6-65BED64370FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Soap.Test", "Soap.Test", "{815CA449-4BDD-4178-8862-B8826C338119}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reca.Vehicles", "Reca.Vehicles\Reca.Vehicles.csproj", "{8AC11ACC-237A-415E-A5DC-15B817F70547}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reca.Rentals", "Reca.Rentals\Reca.Rentals.csproj", "{5E9331A3-D9AB-4302-B842-43D95B98C11F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reca.Finance", "Reca.Finance\Reca.Finance.csproj", "{B9D358DD-C8A7-47CE-9944-AE179FFA2646}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reca.TechnicalService.Vehicles", "Reca.TechnicalService.Vehicles\Reca.TechnicalService.Vehicles.csproj", "{CBE86FC4-C4A9-44C4-86E7-5DB5414EC02C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reca.Composite.Vehicles", "Reca.Composite.Vehicles\Reca.Composite.Vehicles.csproj", "{6B8D569B-6751-4309-9BEF-23F26067D16A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reca.Vehicles.Test", "Reca.Vehicles.Test\Reca.Vehicles.Test.csproj", "{274DBFF8-31E5-4786-A661-0C759676A5CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reca.TechnicalService.Rentals", "Reca.TechnicalService.Rentals\Reca.TechnicalService.Rentals.csproj", "{334A3063-D245-4901-9527-EE78098BD3C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reca.Composite.Rentals", "Reca.Composite.Rentals\Reca.Composite.Rentals.csproj", "{53629BCE-464E-4035-8B4B-D2DBFDEB38A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reca.Rentals.Test", "Reca.Rentals.Test\Reca.Rentals.Test.csproj", "{14578A75-CA70-43E5-8ADA-B73A73E222FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reca.TechnicalService.Finance", "Reca.TechnicalService.Finance\Reca.TechnicalService.Finance.csproj", "{A0515791-EDCA-497D-86D7-F8C873A2B587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reca.Composite.Finance", "Reca.Composite.Finances\Reca.Composite.Finance.csproj", "{B8ED5E07-BFE1-478E-AAD8-7B0DA49BBCCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reca.Finances.Test", "Reca.Finances.Test\Reca.Finances.Test.csproj", "{1079B9A5-898B-4827-94BC-3902AD8C98E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FC70952-B7ED-43AD-BF0F-05FB37A0E5B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC70952-B7ED-43AD-BF0F-05FB37A0E5B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC70952-B7ED-43AD-BF0F-05FB37A0E5B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC70952-B7ED-43AD-BF0F-05FB37A0E5B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B87C5698-1CB2-40A4-BF2E-BBF075A3C95D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87C5698-1CB2-40A4-BF2E-BBF075A3C95D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B87C5698-1CB2-40A4-BF2E-BBF075A3C95D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B87C5698-1CB2-40A4-BF2E-BBF075A3C95D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{794A92DF-B0A6-4E2B-9E2D-8C8214638530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{794A92DF-B0A6-4E2B-9E2D-8C8214638530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{794A92DF-B0A6-4E2B-9E2D-8C8214638530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{794A92DF-B0A6-4E2B-9E2D-8C8214638530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E64619D6-3E5B-4626-89D9-C4E8233B194A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E64619D6-3E5B-4626-89D9-C4E8233B194A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E64619D6-3E5B-4626-89D9-C4E8233B194A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E64619D6-3E5B-4626-89D9-C4E8233B194A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AACFE724-433C-4DE4-A615-2986E0A1DFDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AACFE724-433C-4DE4-A615-2986E0A1DFDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AACFE724-433C-4DE4-A615-2986E0A1DFDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AACFE724-433C-4DE4-A615-2986E0A1DFDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAECF8CD-D5ED-49EB-A637-BAA6C17D8286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAECF8CD-D5ED-49EB-A637-BAA6C17D8286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAECF8CD-D5ED-49EB-A637-BAA6C17D8286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAECF8CD-D5ED-49EB-A637-BAA6C17D8286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7959795-6E8B-40B1-9BB6-9AA588981DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7959795-6E8B-40B1-9BB6-9AA588981DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7959795-6E8B-40B1-9BB6-9AA588981DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7959795-6E8B-40B1-9BB6-9AA588981DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{797CBFA4-76C9-406F-A336-44F54868E095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{797CBFA4-76C9-406F-A336-44F54868E095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{797CBFA4-76C9-406F-A336-44F54868E095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{797CBFA4-76C9-406F-A336-44F54868E095}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AC11ACC-237A-415E-A5DC-15B817F70547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC11ACC-237A-415E-A5DC-15B817F70547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC11ACC-237A-415E-A5DC-15B817F70547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC11ACC-237A-415E-A5DC-15B817F70547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E9331A3-D9AB-4302-B842-43D95B98C11F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9331A3-D9AB-4302-B842-43D95B98C11F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9331A3-D9AB-4302-B842-43D95B98C11F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9331A3-D9AB-4302-B842-43D95B98C11F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D358DD-C8A7-47CE-9944-AE179FFA2646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D358DD-C8A7-47CE-9944-AE179FFA2646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D358DD-C8A7-47CE-9944-AE179FFA2646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D358DD-C8A7-47CE-9944-AE179FFA2646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBE86FC4-C4A9-44C4-86E7-5DB5414EC02C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE86FC4-C4A9-44C4-86E7-5DB5414EC02C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE86FC4-C4A9-44C4-86E7-5DB5414EC02C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE86FC4-C4A9-44C4-86E7-5DB5414EC02C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B8D569B-6751-4309-9BEF-23F26067D16A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8D569B-6751-4309-9BEF-23F26067D16A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8D569B-6751-4309-9BEF-23F26067D16A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8D569B-6751-4309-9BEF-23F26067D16A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{274DBFF8-31E5-4786-A661-0C759676A5CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{274DBFF8-31E5-4786-A661-0C759676A5CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{274DBFF8-31E5-4786-A661-0C759676A5CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{274DBFF8-31E5-4786-A661-0C759676A5CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{334A3063-D245-4901-9527-EE78098BD3C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334A3063-D245-4901-9527-EE78098BD3C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334A3063-D245-4901-9527-EE78098BD3C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334A3063-D245-4901-9527-EE78098BD3C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53629BCE-464E-4035-8B4B-D2DBFDEB38A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53629BCE-464E-4035-8B4B-D2DBFDEB38A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53629BCE-464E-4035-8B4B-D2DBFDEB38A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53629BCE-464E-4035-8B4B-D2DBFDEB38A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14578A75-CA70-43E5-8ADA-B73A73E222FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14578A75-CA70-43E5-8ADA-B73A73E222FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14578A75-CA70-43E5-8ADA-B73A73E222FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14578A75-CA70-43E5-8ADA-B73A73E222FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0515791-EDCA-497D-86D7-F8C873A2B587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0515791-EDCA-497D-86D7-F8C873A2B587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0515791-EDCA-497D-86D7-F8C873A2B587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0515791-EDCA-497D-86D7-F8C873A2B587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8ED5E07-BFE1-478E-AAD8-7B0DA49BBCCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8ED5E07-BFE1-478E-AAD8-7B0DA49BBCCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8ED5E07-BFE1-478E-AAD8-7B0DA49BBCCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8ED5E07-BFE1-478E-AAD8-7B0DA49BBCCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1079B9A5-898B-4827-94BC-3902AD8C98E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1079B9A5-898B-4827-94BC-3902AD8C98E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1079B9A5-898B-4827-94BC-3902AD8C98E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1079B9A5-898B-4827-94BC-3902AD8C98E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B87C5698-1CB2-40A4-BF2E-BBF075A3C95D} = {A65E545F-F6CE-4BAF-B4AA-E49C19749187}
+		{794A92DF-B0A6-4E2B-9E2D-8C8214638530} = {8D910B63-DDCF-415B-8635-42DA00E98A7C}
+		{E64619D6-3E5B-4626-89D9-C4E8233B194A} = {8EFC469C-00D4-498E-91A6-65BED64370FF}
+		{AACFE724-433C-4DE4-A615-2986E0A1DFDB} = {A65E545F-F6CE-4BAF-B4AA-E49C19749187}
+		{FAECF8CD-D5ED-49EB-A637-BAA6C17D8286} = {E945422B-9816-47F2-B97E-1E671C7CE455}
+		{B7959795-6E8B-40B1-9BB6-9AA588981DA7} = {F6C0A63E-83D7-4AC4-8082-6BEE9A971340}
+		{797CBFA4-76C9-406F-A336-44F54868E095} = {815CA449-4BDD-4178-8862-B8826C338119}
+		{8AC11ACC-237A-415E-A5DC-15B817F70547} = {8EFC469C-00D4-498E-91A6-65BED64370FF}
+		{5E9331A3-D9AB-4302-B842-43D95B98C11F} = {8EFC469C-00D4-498E-91A6-65BED64370FF}
+		{B9D358DD-C8A7-47CE-9944-AE179FFA2646} = {8EFC469C-00D4-498E-91A6-65BED64370FF}
+		{CBE86FC4-C4A9-44C4-86E7-5DB5414EC02C} = {A65E545F-F6CE-4BAF-B4AA-E49C19749187}
+		{6B8D569B-6751-4309-9BEF-23F26067D16A} = {E945422B-9816-47F2-B97E-1E671C7CE455}
+		{274DBFF8-31E5-4786-A661-0C759676A5CB} = {815CA449-4BDD-4178-8862-B8826C338119}
+		{334A3063-D245-4901-9527-EE78098BD3C8} = {A65E545F-F6CE-4BAF-B4AA-E49C19749187}
+		{53629BCE-464E-4035-8B4B-D2DBFDEB38A5} = {E945422B-9816-47F2-B97E-1E671C7CE455}
+		{14578A75-CA70-43E5-8ADA-B73A73E222FD} = {815CA449-4BDD-4178-8862-B8826C338119}
+		{A0515791-EDCA-497D-86D7-F8C873A2B587} = {A65E545F-F6CE-4BAF-B4AA-E49C19749187}
+		{B8ED5E07-BFE1-478E-AAD8-7B0DA49BBCCC} = {E945422B-9816-47F2-B97E-1E671C7CE455}
+		{1079B9A5-898B-4827-94BC-3902AD8C98E3} = {815CA449-4BDD-4178-8862-B8826C338119}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 21
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://jklingler.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Reca\\Reca.ccproj
+		SccProjectName1 = Reca
+		SccLocalPath1 = Reca
+		SccProjectUniqueName2 = Reca.TechnicalService.Customers\\Reca.TechnicalService.Customers.csproj
+		SccProjectTopLevelParentUniqueName2 = Reca.sln
+		SccProjectName2 = Reca.TechnicalService.Customers
+		SccLocalPath2 = Reca.TechnicalService.Customers
+		SccProjectUniqueName3 = Reca.TechnicalService.Customers.Test\\Reca.TechnicalService.Customers.Test.csproj
+		SccProjectTopLevelParentUniqueName3 = Reca.sln
+		SccProjectName3 = Reca.TechnicalService.Customers.Test
+		SccLocalPath3 = Reca.TechnicalService.Customers.Test
+		SccProjectUniqueName4 = Reca.Customers\\Reca.Customers.csproj
+		SccProjectTopLevelParentUniqueName4 = Reca.sln
+		SccProjectName4 = Reca.Customers
+		SccLocalPath4 = Reca.Customers
+		SccProjectUniqueName5 = Reca.TechnicalService.Basics\\Reca.TechnicalService.Basics.csproj
+		SccProjectTopLevelParentUniqueName5 = Reca.sln
+		SccProjectName5 = Reca.TechnicalService.Basics
+		SccLocalPath5 = Reca.TechnicalService.Basics
+		SccProjectUniqueName6 = Reca.Composite.Customers\\Reca.Composite.Customers.csproj
+		SccProjectTopLevelParentUniqueName6 = Reca.sln
+		SccProjectName6 = Reca.Composite.Customers
+		SccLocalPath6 = Reca.Composite.Customers
+		SccProjectUniqueName7 = Reca.DataTransferObjects.Basics\\Reca.DataTransferObjects.Basics.csproj
+		SccProjectTopLevelParentUniqueName7 = Reca.sln
+		SccProjectName7 = Reca.DataTransferObjects.Basics
+		SccLocalPath7 = Reca.DataTransferObjects.Basics
+		SccProjectUniqueName8 = Reca.Customers.Test\\Reca.Customers.Test.csproj
+		SccProjectTopLevelParentUniqueName8 = Reca.sln
+		SccProjectName8 = Reca.Customers.Test
+		SccLocalPath8 = Reca.Customers.Test
+		SccProjectUniqueName9 = Reca.Vehicles\\Reca.Vehicles.csproj
+		SccProjectTopLevelParentUniqueName9 = Reca.sln
+		SccProjectName9 = Reca.Vehicles
+		SccLocalPath9 = Reca.Vehicles
+		SccProjectUniqueName10 = Reca.Rentals\\Reca.Rentals.csproj
+		SccProjectTopLevelParentUniqueName10 = Reca.sln
+		SccProjectName10 = Reca.Rentals
+		SccLocalPath10 = Reca.Rentals
+		SccProjectUniqueName11 = Reca.Finance\\Reca.Finance.csproj
+		SccProjectTopLevelParentUniqueName11 = Reca.sln
+		SccProjectName11 = Reca.Finance
+		SccLocalPath11 = Reca.Finance
+		SccProjectUniqueName12 = Reca.TechnicalService.Vehicles\\Reca.TechnicalService.Vehicles.csproj
+		SccProjectTopLevelParentUniqueName12 = Reca.sln
+		SccProjectName12 = Reca.TechnicalService.Vehicles
+		SccLocalPath12 = Reca.TechnicalService.Vehicles
+		SccProjectUniqueName13 = Reca.Composite.Vehicles\\Reca.Composite.Vehicles.csproj
+		SccProjectTopLevelParentUniqueName13 = Reca.sln
+		SccProjectName13 = Reca.Composite.Vehicles
+		SccLocalPath13 = Reca.Composite.Vehicles
+		SccProjectUniqueName14 = Reca.Vehicles.Test\\Reca.Vehicles.Test.csproj
+		SccProjectTopLevelParentUniqueName14 = Reca.sln
+		SccProjectName14 = Reca.Vehicles.Test
+		SccLocalPath14 = Reca.Vehicles.Test
+		SccProjectUniqueName15 = Reca.TechnicalService.Rentals\\Reca.TechnicalService.Rentals.csproj
+		SccProjectTopLevelParentUniqueName15 = Reca.sln
+		SccProjectName15 = Reca.TechnicalService.Rentals
+		SccLocalPath15 = Reca.TechnicalService.Rentals
+		SccProjectUniqueName16 = Reca.Composite.Rentals\\Reca.Composite.Rentals.csproj
+		SccProjectTopLevelParentUniqueName16 = Reca.sln
+		SccProjectName16 = Reca.Composite.Rentals
+		SccLocalPath16 = Reca.Composite.Rentals
+		SccProjectUniqueName17 = Reca.Rentals.Test\\Reca.Rentals.Test.csproj
+		SccProjectTopLevelParentUniqueName17 = Reca.sln
+		SccProjectName17 = Reca.Rentals.Test
+		SccLocalPath17 = Reca.Rentals.Test
+		SccProjectUniqueName18 = Reca.TechnicalService.Finance\\Reca.TechnicalService.Finance.csproj
+		SccProjectTopLevelParentUniqueName18 = Reca.sln
+		SccProjectName18 = Reca.TechnicalService.Finance
+		SccLocalPath18 = Reca.TechnicalService.Finance
+		SccProjectUniqueName19 = Reca.Composite.Finances\\Reca.Composite.Finance.csproj
+		SccProjectTopLevelParentUniqueName19 = Reca.sln
+		SccProjectName19 = Reca.Composite.Finances
+		SccLocalPath19 = Reca.Composite.Finances
+		SccProjectUniqueName20 = Reca.Finances.Test\\Reca.Finances.Test.csproj
+		SccProjectTopLevelParentUniqueName20 = Reca.sln
+		SccProjectName20 = Reca.Finances.Test
+		SccLocalPath20 = Reca.Finances.Test
+	EndGlobalSection
+EndGlobal
