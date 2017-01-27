@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2b96f7d0f091475790f1167eb9c75bb8" Name="Diagram1">
+        <EntityTypeShape EntityType="Rental.Customer" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Rental.Invoice" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Rental.Rental" Width="1.5" PointX="6" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Rental.Vehicle" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="Rental.FK__Invoice__Custome__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="Rental.FK__Rental__Customer__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="Rental.FK__Invoice__RentalI__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="Rental.FK__Rental__VehicleI__412EB0B6" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
